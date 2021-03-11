@@ -1,1 +1,1 @@
-java -jar imageGenerator.jar 1024 1024 10 -r  
+java -jar imageGenerator.jar 1366 768 10 -r  

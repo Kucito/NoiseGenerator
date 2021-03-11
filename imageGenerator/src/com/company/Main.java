@@ -49,8 +49,8 @@ public class Main {
         int a = (int)(Math.random()*250);
 
         // create a circle with black
-        int x = height/2;
-        int y = width/2;
+        int x = width/2;
+        int y = height/2;
 
         for(int i = 0; i < args.length; i++){
             if(args[i].equals("-r")){
@@ -118,7 +118,7 @@ public class Main {
                 y = height-1;
             }
 
-            g2d.fillOval(x,y,10,10);
+            g2d.fillRect(x,y,2,2);
         }
 
         // Disposes of this graphics context and releases any system resources that it is using.
